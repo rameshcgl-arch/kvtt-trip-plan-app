@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "218563978714",
+    "project_id": "kvtt-crm",
+    "storage_bucket": "kvtt-crm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218563978714:android:9793bb93566a4d78bd0ce3",
+        "android_client_info": {
+          "package_name": "com.example.kvtt_whatsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACQpTUWfwHBzVqqVV75-LpEBQLAv7FeVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218563978714:android:68fc807a1fe2b666bd0ce3",
+        "android_client_info": {
+          "package_name": "com.example.tourplanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACQpTUWfwHBzVqqVV75-LpEBQLAv7FeVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KVTT Planner</string>
+    <string name="login_title">குழு உள்நுழைவு</string>
+    <string name="username_hint">பயனர் பெயர்</string>
+    <string name="password_hint">கடவுச்சொல்</string>
+    <string name="login_button">உள்நுழைக</string>
+    <string name="change_language">மொழியை மாற்றவும்</string>
+    <string name="tour_details_title">பயண விவரங்கள்</string>
+    <string name="tab_plan">பயணத் திட்டம்</string>
+    <string name="tab_contacts">குழு தொடர்புகள்</string>
+    <string name="tracking_active_status">டிராக்கிங் செயலில் உள்ளது ●</string>
+    <string name="ok_button">சரி</string>
+    <string name="perm_location_title">நேரடி டிராக்கிங்</string>
+    <string name="perm_location_desc">வணக்கம், நேரடி டிராக்கிங்கை இயக்க, அடுத்த அமைப்பில் \'Allow all the time\' என்பதைத் தேர்ந்தெடுக்கவும். இது ஆப் மூடப்பட்டிருந்தாலும் குழு உங்களுக்கு உதவ உறுதி செய்யும்.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KVTT Planner</string>
+    <string name="login_title">ટીમ લોગિન</string>
+    <string name="username_hint">યુઝરનેમ</string>
+    <string name="password_hint">પાસવર્ડ</string>
+    <string name="login_button">લોગિન</string>
+    <string name="change_language">ભાષા બદલો</string>
+    <string name="tour_details_title">ટૂર વિગતો</string>
+    <string name="tab_plan">ટૂર પ્લાન</string>
+    <string name="tab_contacts">ટીમ સંપર્કો</string>
+    <string name="tracking_active_status">ટ્રેકિંગ ચાલુ છે ●</string>
+    <string name="ok_button">ઠીક છે</string>
+    <string name="perm_location_title">લાઇવ ટ્રેકિંગ</string>
+    <string name="perm_location_desc">નમસ્તે, રીઅલ-ટાઇમ અપડેટ્સ માટે કૃપા કરીને આગામી સેટિંગમાં \'Allow all the time\' પસંદ કરો. આ સુનિશ્ચિત કરે છે કે એપ બંધ હોય તો પણ ટીમ તમને મદદ કરી શકે.</string>
+</resources>

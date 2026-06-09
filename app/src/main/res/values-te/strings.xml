@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KVTT Planner</string>
+    <string name="login_title">టీమ్ లాగిన్</string>
+    <string name="username_hint">వినియోగదారు పేరు</string>
+    <string name="password_hint">పాస్‌వర్డ్</string>
+    <string name="login_button">లాగిన్</string>
+    <string name="change_language">భాషను మార్చండి</string>
+    <string name="tour_details_title">టూర్ వివరాలు</string>
+    <string name="tab_plan">టూర్ ప్లాన్</string>
+    <string name="tab_contacts">టీమ్ కాంటాక్ట్స్</string>
+    <string name="tracking_active_status">ట్రాకింగ్ యాక్టివ్‌గా ఉంది ●</string>
+    <string name="ok_button">సరే</string>
+    <string name="perm_location_title">లైవ్ ట్రాకింగ్</string>
+    <string name="perm_location_desc">నమస్కారం, రియల్ టైమ్ అప్‌డేట్‌ల కోసం తదుపరి సెట్టింగ్‌లో \'Allow all the time\' ఎంచుకోండి. ఇది యాప్ క్లోజ్ చేసినా టీమ్ మీకు సహాయం చేయడానికి వీలు కల్పిస్తుంది.</string>
+</resources>

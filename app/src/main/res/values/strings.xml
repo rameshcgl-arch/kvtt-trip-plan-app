@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">KVTT Planner</string>
+    <string name="login_title">Team Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="change_language">Change Language</string>
+
+    <string name="tour_details_title">Tour Details</string>
+    <string name="tab_plan">Tour Plan</string>
+    <string name="tab_contacts">Team Contacts</string>
+    <string name="tracking_active_status">Smart Tracking Active ●</string>
+    <string name="logout_confirm">Logout</string>
+    <string name="retry_button">Retry</string>
+    <string name="no_active_tour">No active tour found.</string>
+    <string name="no_contacts">No contacts assigned to this tour.</string>
+
+    <string name="perm_notif_title">Important Updates</string>
+    <string name="perm_notif_desc">Please allow notifications to stay updated with important trip details and team coordination messages.</string>
+    <string name="perm_battery_title">Optimization Mode</string>
+    <string name="perm_battery_desc">To ensure your status updates correctly in the background, please allow the next setting. This helps the team coordinate with you effectively.</string>
+    <string name="perm_location_title">Live Coordination</string>
+    <string name="perm_location_desc">Hello, please select \'Allow all the time\' in the next setting to ensure your location stays updated even if the app is closed. This helps the team support you better.\n\nSteps:\n1. Choose \'Allow all the time\'.\n2. Press OK button.\n3. Press Back to return.</string>
+    <string name="ok_button">OK</string>
+    <string name="bg_tracking_disabled">Background tracking is disabled.</string>
+
+    <string name="wakeup_alert_title">Wake-up Alert!</string>
+    <string name="wakeup_alert_body">Office is requesting a location update. Please ensure app is active.</string>
+    <string name="tracking_service_title">Tracking Active</string>
+    <string name="tracking_service_desc">Your live location is being shared for tour coordination.</string>
+</resources>

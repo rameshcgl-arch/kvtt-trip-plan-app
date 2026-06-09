@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KVTT Planner</string>
+    <string name="login_title">टीम लॉगिन</string>
+    <string name="username_hint">युजरनेम</string>
+    <string name="password_hint">पासवर्ड</string>
+    <string name="login_button">लॉगिन</string>
+    <string name="change_language">भाषा बदला</string>
+
+    <string name="tour_details_title">टूर तपशील</string>
+    <string name="tab_plan">टूर प्लॅन</string>
+    <string name="tab_contacts">टीम संपर्क</string>
+    <string name="tracking_active_status">स्मार्ट ट्रॅकिंग सक्रिय आहे ●</string>
+    <string name="logout_confirm">लॉगआउट</string>
+    <string name="retry_button">पुन्हा प्रयत्न करा</string>
+    <string name="no_active_tour">कोणताही सक्रिय टूर सापडला नाही.</string>
+    <string name="no_contacts">या टूरसाठी कोणतेही संपर्क नियुक्त केलेले नाहीत.</string>
+
+    <string name="perm_notif_title">महत्वाच्या सूचना</string>
+    <string name="perm_notif_desc">टूर अपडेट्स आणि टीमचे संदेश मिळवण्यासाठी कृपया नोटिफिकेशन्सना परवानगी द्या.</string>
+    <string name="perm_battery_title">स्मार्ट मोड</string>
+    <string name="perm_battery_desc">बॅकग्राउंडमध्ये तुमची स्थिती अपडेट होत राहण्यासाठी कृपया पुढील सेटिंगला परवानगी द्या.</string>
+    <string name="perm_location_title">थेट समन्वय</string>
+    <string name="perm_location_desc">नमस्कार, रिअल-टाइम समन्वयासाठी कृपया पुढील सेटिंगमध्ये \'Allow all the time\' निवडा. यामुळे ॲप बंद असतानाही टीम तुम्हाला मदत करू शकेल.\n\nपायऱ्या:\n1. \'Allow all the time\' निवडा.\n2. ठीक आहे (OK) बटण दाबा.\n3. परत येण्यासाठी बॅक बटण दाबा.</string>
+    <string name="ok_button">ठीक आहे</string>
+    <string name="bg_tracking_disabled">बॅकग्राउंड ट्रॅकिंग बंद आहे.</string>
+
+    <string name="wakeup_alert_title">वेक-अप अलर्ट!</string>
+    <string name="wakeup_alert_body">ऑफिस लोकेन्शन अपडेटची विनंती करत आहे. कृपया ॲप सक्रिय असल्याची खात्री करा.</string>
+    <string name="tracking_service_title">ट्रॅकिंग सक्रिय आहे</string>
+    <string name="tracking_service_desc">तुमचे थेट स्थान समन्वयासाठी टीमसोबत शेअर केले जात आहे.</string>
+</resources>
