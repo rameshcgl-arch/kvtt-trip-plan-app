@@ -42,6 +42,63 @@
           "other_platform_oauth_client": []
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218563978714:android:37b562576c96cc45bd0ce3",
+        "android_client_info": {
+          "package_name": "in.kashivaranasi.crm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACQpTUWfwHBzVqqVV75-LpEBQLAv7FeVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218563978714:android:f96b2f9f437f2386bd0ce3",
+        "android_client_info": {
+          "package_name": "in.kashivaranasi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACQpTUWfwHBzVqqVV75-LpEBQLAv7FeVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218563978714:android:f96b2f9f437f2386bd0ce3",
+        "android_client_info": {
+          "package_name": "in.kashivaranasi.tourplanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACQpTUWfwHBzVqqVV75-LpEBQLAv7FeVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
     }
   ],
   "configuration_version": "1"

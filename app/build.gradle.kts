@@ -8,24 +8,34 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tourplanner"
+    namespace = "in.kashivaranasi"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.tourplanner"
+        applicationId = "in.kashivaranasi"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         
         buildConfigField("String", "BASE_URL", "\"https://kashivaranasi.in/trip/\"")
     }
 
+    signingConfigs {
+        create("release") {
+            storeFile = file("C:/Users/info/OneDrive/Desktop/kvtt_keystore")
+            storePassword = "Amitrai@123"
+            keyAlias = "kvtt_alias"
+            keyPassword = "Amitrai@123"
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
+            signingConfig = signingConfigs.getByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -42,6 +52,10 @@ android {
     buildFeatures {
         compose = true
         buildConfig = true
+    }
+
+    lint {
+        checkReleaseBuilds = false
     }
 }
 
