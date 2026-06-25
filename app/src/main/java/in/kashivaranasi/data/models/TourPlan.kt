@@ -1,5 +1,8 @@
 package `in`.kashivaranasi.data.models
 
+import androidx.annotation.Keep
+
+@Keep
 data class TourPlanResponse(
     val status: String,
     val tour: Tour?,
@@ -8,6 +11,7 @@ data class TourPlanResponse(
     val message: String?
 )
 
+@Keep
 data class Tour(
     val tour_id: Int,
     val tour_name: String,
@@ -15,6 +19,7 @@ data class Tour(
     val status: String
 )
 
+@Keep
 data class SightseeingPoint(
     val id: Int,
     val sight_name: String,
@@ -26,6 +31,7 @@ data class SightseeingPoint(
     val actual_visit_time: String?
 )
 
+@Keep
 data class TeamMember(
     val full_name: String,
     val phone: String,

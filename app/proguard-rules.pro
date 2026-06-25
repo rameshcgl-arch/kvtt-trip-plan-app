@@ -1,21 +1,35 @@
-# Add project specific ProGuard rules here.
-# You can control the set of applied configuration files using the
-# proguardFiles setting in build.gradle.
-#
-# For more details, see
-#   http://developer.android.com/guide/developing/tools/proguard.html
+# Handle the reserved 'in' keyword in package name
+-keep class **.kashivaranasi.** { *; }
 
-# If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class name to the JavaScript interface
-# class:
-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
-#   public *;
-#}
+# Preserve data models for GSON
+-keep class in.kashivaranasi.data.models.** { *; }
+-keepclassmembers class in.kashivaranasi.data.models.** { *; }
 
-# Uncomment this to preserve the line number information for
-# debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
+# Keep GSON SerializedName annotations
+-keepattributes *Annotation*, Signature, EnclosingMethod, InnerClasses
+-keep class com.google.gson.** { *; }
 
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+# Retrofit
+-keep class retrofit2.** { *; }
+-keepclassmembernames class retrofit2.MethodHandler { *** invoke(...); }
+
+# OkHttp
+-keep class okhttp3.** { *; }
+
+# Kotlin Coroutines
+-keepnames class kotlinx.coroutines.internal.MainDispatcherFactory {}
+-keepnames class kotlinx.coroutines.CoroutineExceptionHandler {}
+-keepclassmembernames class kotlinx.coroutines.android.HandlerContext {
+    private *** handler;
+}
+
+# Hilt / Dagger
+-keep class dagger.hilt.** { *; }
+-keep @dagger.hilt.android.lifecycle.HiltViewModel class *
+-keep class * extends androidx.lifecycle.ViewModel
+
+# Firebase
+-keep class com.google.firebase.** { *; }
+
+# Prevent shrinking of important resources
+-keep class com.google.android.gms.** { *; }

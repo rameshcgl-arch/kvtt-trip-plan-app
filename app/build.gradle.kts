@@ -15,8 +15,8 @@ android {
         applicationId = "in.kashivaranasi"
         minSdk = 24
         targetSdk = 35
-        versionCode = 3
-        versionName = "1.2"
+        versionCode = 5
+        versionName = "1.4"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         
@@ -25,7 +25,7 @@ android {
 
     signingConfigs {
         create("release") {
-            storeFile = file("C:/Users/info/OneDrive/Desktop/kvtt_keystore")
+            storeFile = file("C:/Users/utkar/Downloads/kvtt_keystore")
             storePassword = "Amitrai@123"
             keyAlias = "kvtt_alias"
             keyPassword = "Amitrai@123"
@@ -34,6 +34,15 @@ android {
 
     buildTypes {
         release {
+            isMinifyEnabled = true
+            isShrinkResources = true
+            signingConfig = signingConfigs.getByName("release")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
+        debug {
             isMinifyEnabled = true
             isShrinkResources = true
             signingConfig = signingConfigs.getByName("release")

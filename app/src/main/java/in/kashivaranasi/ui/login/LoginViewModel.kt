@@ -7,6 +7,8 @@ import androidx.compose.runtime.setValue
 import androidx.core.content.edit
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import androidx.annotation.Keep
+import android.util.Log
 import `in`.kashivaranasi.data.repository.TourRepository
 import com.google.firebase.messaging.FirebaseMessaging
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -64,7 +66,8 @@ class LoginViewModel @Inject constructor(
                     errorMessage = response.body()?.message ?: "Login failed"
                 }
             } catch (e: Exception) {
-                errorMessage = "Network error: ${e.message}"
+                Log.e("LoginError", "Detailed error", e)
+                errorMessage = "Error: ${e::class.simpleName}: ${e.message}\nCause: ${e.cause?.message ?: "Unknown"}"
             } finally {
                 isLoading = false
             }
@@ -76,7 +79,8 @@ class LoginViewModel @Inject constructor(
             val token = FirebaseMessaging.getInstance().token.await()
             repository.updateFcmToken(userId, token)
             prefs.edit { putString("fcm_token", token) }
-        } catch (e: Exception) {
+        } catch (e: Throwable) {
+            e.printStackTrace()
             // Ignore token failure, can retry later
         }
     }
